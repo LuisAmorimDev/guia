@@ -1,0 +1,18 @@
+{
+  "name": "luisamorimdev",
+  "owner": {
+    "name": "LuisAmorimDev"
+  },
+  "metadata": {
+    "description": "Plugins de LuisAmorimDev para o Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "guia",
+      "source": "./plugins/guia",
+      "description": "Vídeos de ajuda narrados em português europeu (pt-PT) a partir do código de projetos Next.js ou Nuxt, com personas de estilo guardadas.",
+      "version": "0.1.0",
+      "category": "productivity"
+    }
+  ]
+}

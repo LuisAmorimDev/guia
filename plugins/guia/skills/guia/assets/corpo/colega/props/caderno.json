@@ -1,0 +1,12 @@
+{
+  "id": "caderno",
+  "tipo": "mao",
+  "mao": "ambas",
+  "descricao": "caderno de capa vermelho-lacre, o jeito antigo de anotar trabalhos",
+  "tags": ["escrita", "notas", "papel"],
+  "pecas": [
+    { "nome": "folhas", "forma": "retangulo", "centro": [0.012, 0.09], "tamanho": [0.2, 0.26], "raio": 0.01, "cor": "#fffdf7", "camada": 0, "grao": 0.02 },
+    { "nome": "capa", "forma": "retangulo", "centro": [0, 0.09], "tamanho": [0.2, 0.26], "raio": 0.012, "cor": "#9c2b2b", "camada": 0.05 },
+    { "nome": "etiqueta", "forma": "retangulo", "centro": [0, 0.15], "tamanho": [0.12, 0.05], "raio": 0.008, "cor": "#faf6ee", "camada": 0.1, "grao": 0.02 }
+  ]
+}

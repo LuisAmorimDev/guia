@@ -1,0 +1,15 @@
+{
+  "id": "telemovel",
+  "tipo": "mao",
+  "mao": "ambas",
+  "descricao": "telemóvel com a app aberta (lista e barra cobalto)",
+  "tags": ["tecnologia", "app"],
+  "pecas": [
+    { "nome": "corpo", "forma": "retangulo", "centro": [0, 0.06], "tamanho": [0.15, 0.28], "raio": 0.025, "cor": "#10161f", "camada": 0, "grao": 0.03 },
+    { "nome": "ecra", "forma": "retangulo", "centro": [0, 0.07], "tamanho": [0.124, 0.23], "raio": 0.012, "cor": "#faf6ee", "camada": 0.05, "grao": 0.02 },
+    { "nome": "barra", "forma": "retangulo", "centro": [0, 0.165], "tamanho": [0.124, 0.034], "raio": 0.008, "cor": "#263b8f", "camada": 0.1 },
+    { "nome": "linha0", "forma": "retangulo", "centro": [0, 0.115], "tamanho": [0.094, 0.022], "raio": 0.006, "cor": "#e7dfcc", "camada": 0.1, "grao": 0 },
+    { "nome": "linha1", "forma": "retangulo", "centro": [0, 0.075], "tamanho": [0.094, 0.022], "raio": 0.006, "cor": "#e7dfcc", "camada": 0.1, "grao": 0 },
+    { "nome": "linha2", "forma": "retangulo", "centro": [0, 0.035], "tamanho": [0.094, 0.022], "raio": 0.006, "cor": "#e7dfcc", "camada": 0.1, "grao": 0 }
+  ]
+}

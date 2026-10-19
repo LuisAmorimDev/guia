@@ -1,0 +1,16 @@
+{
+  "id": "nuvem",
+  "tipo": "cenario",
+  "mao": "",
+  "descricao": "nuvem de papel com seta para cima (cópia de segurança, sincronizar)",
+  "tags": ["nuvem", "sincronizar", "copia"],
+  "pecas": [
+    { "nome": "bola0", "forma": "elipse", "centro": [0, 0], "raios": [0.32, 0.2], "cor": "#fffdf7", "camada": 0 },
+    { "nome": "bola1", "forma": "elipse", "centro": [-0.22, -0.05], "raios": [0.2, 0.14], "cor": "#fffdf7", "camada": 0 },
+    { "nome": "bola2", "forma": "elipse", "centro": [0.24, -0.04], "raios": [0.2, 0.15], "cor": "#fffdf7", "camada": 0 },
+    { "nome": "bola3", "forma": "elipse", "centro": [-0.06, 0.12], "raios": [0.2, 0.18], "cor": "#fffdf7", "camada": 0 },
+    { "nome": "bola4", "forma": "elipse", "centro": [0.14, 0.1], "raios": [0.17, 0.15], "cor": "#fffdf7", "camada": 0 },
+    { "nome": "base", "forma": "retangulo", "centro": [0, -0.1], "tamanho": [0.72, 0.12], "raio": 0.05, "cor": "#fffdf7", "camada": 0 },
+    { "nome": "seta", "forma": "poligono", "pontos": [[-0.025, -0.1], [0.025, -0.1], [0.025, 0.02], [0.07, 0.02], [0, 0.1], [-0.07, 0.02], [-0.025, 0.02]], "cor": "#263b8f", "camada": 0.1 }
+  ]
+}

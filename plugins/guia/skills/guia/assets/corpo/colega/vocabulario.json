@@ -1,0 +1,114 @@
+{
+  "versao": 1,
+  "personagem": {
+    "nome": "colega",
+    "pele": "#e2a782",
+    "pele_sombra": "#c98a66",
+    "cabelo": "#3b2a20",
+    "boca": "#4a1d22",
+    "tinta": "#1b2430",
+    "bochecha": "#ec9c8c"
+  },
+  "emocoes": {
+    "neutro": {
+      "descricao": "calmo, a explicar sem pressa",
+      "olhos": "aberto", "boca": "X", "bochechas": false, "cabeca": 0,
+      "sobrancelhas": { "altura": 0.0, "angulo": 0 }
+    },
+    "alegre": {
+      "descricao": "contente, boa notícia, alívio",
+      "olhos": "feliz", "boca": "sorriso", "bochechas": true, "cabeca": 5,
+      "sobrancelhas": { "altura": 0.02, "angulo": 0 }
+    },
+    "confiante": {
+      "descricao": "seguro do que recomenda, tom profissional",
+      "olhos": "aberto", "boca": "meio_sorriso", "bochechas": false, "cabeca": -3,
+      "sobrancelhas": { "altura": 0.008, "angulo": -6 }
+    },
+    "pensativo": {
+      "descricao": "a ponderar uma decisão ou uma alternativa",
+      "olhos": "semicerrado", "boca": "lado", "bochechas": false, "cabeca": 7,
+      "sobrancelhas": { "altura": 0.018, "angulo": 9 }
+    },
+    "preocupado": {
+      "descricao": "um risco ou um problema (avaria, perder dados)",
+      "olhos": "aberto", "boca": "triste", "bochechas": false, "cabeca": -4,
+      "sobrancelhas": { "altura": 0.02, "angulo": 16 }
+    },
+    "surpreso": {
+      "descricao": "algo inesperado ou muito rápido",
+      "olhos": "largo", "boca": "O", "bochechas": false, "cabeca": 0,
+      "sobrancelhas": { "altura": 0.05, "angulo": 0 }
+    }
+  },
+  "gestos": {
+    "repouso": { "descricao": "braços ao longo do corpo", "ossos": {} },
+    "explicar": {
+      "descricao": "mão direita à frente, palma aberta, a explicar",
+      "ossos": { "upper_arm.R": -18, "forearm.R": 92, "hand.R": 10 }
+    },
+    "apontar_dir": {
+      "descricao": "aponta para a direita do ecrã (onde costuma estar o telemóvel)",
+      "ossos": { "upper_arm.L": 82, "forearm.L": 8, "hand.L": 0 }
+    },
+    "apontar_esq": {
+      "descricao": "aponta para a esquerda do ecrã (o telemóvel ou um cartão à esquerda do ator)",
+      "ossos": { "upper_arm.R": -82, "forearm.R": -8, "hand.R": 0 }
+    },
+    "apontar_cima": {
+      "descricao": "aponta para cima, para algo acima da cabeça (ex.: a nuvem)",
+      "ossos": { "upper_arm.L": 148, "forearm.L": 14, "hand.L": 0 }
+    },
+    "acenar": {
+      "descricao": "acena com a mão esquerda, cumprimento ou despedida",
+      "ossos": { "upper_arm.L": 118, "forearm.L": 42 },
+      "oscilar": { "osso": "forearm.L", "amplitude": 16, "periodo": 0.55 }
+    },
+    "encolher_ombros": {
+      "descricao": "dúvida ou 'tanto faz', palmas para cima dos dois lados",
+      "ossos": { "upper_arm.L": 10, "forearm.L": 78, "hand.L": 25, "upper_arm.R": -10, "forearm.R": -78, "hand.R": -25 }
+    },
+    "maos_juntas": {
+      "descricao": "mãos juntas à frente, a ouvir ou a resumir",
+      "ossos": { "upper_arm.L": 12, "forearm.L": -64, "upper_arm.R": -12, "forearm.R": 64 }
+    },
+    "mostrar_objeto": {
+      "descricao": "segura o prop da mão esquerda à frente do peito, a mostrá-lo",
+      "ossos": { "upper_arm.L": 24, "forearm.L": -108, "hand.L": 18 }
+    }
+  },
+  "olhar": {
+    "frente": [0.0, 0.0],
+    "direita": [0.018, 0.0],
+    "esquerda": [-0.018, 0.0],
+    "cima": [0.006, 0.016],
+    "baixo": [0.0, -0.014]
+  },
+  "padroes": ["liso", "riscas", "xadrez", "bolinhas"],
+  "roupas": {
+    "casual_trabalho": {
+      "descricao": "camisola cobalto lisa e calças cinza-escuro; o dia a dia",
+      "camisola": { "cor": "#263b8f", "padrao": "liso" },
+      "calcas": { "cor": "#3a4250", "padrao": "liso" },
+      "sapatos": { "cor": "#1b2430" }
+    },
+    "jardinagem": {
+      "descricao": "camisa aos quadrados verde e calças de trabalho; trabalhos no exterior",
+      "camisola": { "cor": "#1f6b4a", "padrao": "xadrez", "cor_padrao": "#2e8b61", "escala": 9 },
+      "calcas": { "cor": "#6c6353", "padrao": "liso" },
+      "sapatos": { "cor": "#4a3426" }
+    },
+    "oficina": {
+      "descricao": "camisola às riscas vermelho-lacre e calças de ganga; reparações",
+      "camisola": { "cor": "#9c2b2b", "padrao": "riscas", "cor_padrao": "#fffdf7", "escala": 14 },
+      "calcas": { "cor": "#34508a", "padrao": "liso" },
+      "sapatos": { "cor": "#1b2430" }
+    }
+  },
+  "ancoras": {
+    "acima": [0.15, 2.85],
+    "acima_dir": [0.62, 2.72],
+    "ao_lado_dir": [0.95, 1.55],
+    "chao_dir": [0.95, 0.2]
+  }
+}

@@ -1,0 +1,36 @@
+nome: padrao
+versao: 1
+descricao: Guias de ajuda claros e calmos para utilizadores de plataformas web
+voz:
+  provider: azure
+  id: pt-PT-RaquelNeural
+  velocidade: "+0%"
+  tom_voz: "+0Hz"
+  volume: "+0%"
+  pausa_entre_frases_ms: 300
+  pausa_inicio_cena_ms: 400
+  pausa_fim_cena_ms: 700
+escrita:
+  tratamento: voce
+  tom: didatico
+  registo: "claro, frases curtas, uma ação por frase, sem gíria"
+  palavras_por_minuto: 150
+  abertura: null
+  fecho: null
+  evitar: ["simplesmente", "basta", "super fácil", "obviamente"]
+visual:
+  formato: landscape
+  ritmo_cortes: calmo
+  destaque: "contorno suave na cor de destaque da marca + zoom ligeiro na área ativa"
+  cursor: sistema
+  legendas:
+    estilo: barra-inferior
+    gravadas: false
+  marca: herdar-do-projeto
+audio:
+  musica:
+    ativa: false
+    volume: 0.08
+  sfx: apenas-cliques
+referencias: []
+amostra: null

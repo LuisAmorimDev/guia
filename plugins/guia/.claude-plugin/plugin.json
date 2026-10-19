@@ -1,0 +1,9 @@
+{
+  "name": "guia",
+  "version": "0.1.0",
+  "description": "Vídeos de ajuda narrados em português europeu (pt-PT) a partir do código de projetos Next.js ou Nuxt, com personas de estilo guardadas. Requer uv, Python 3.11+, Node, ffmpeg e AZURE_SPEECH_KEY/AZURE_SPEECH_REGION.",
+  "author": {
+    "name": "LuisAmorimDev"
+  },
+  "keywords": ["video", "tutorial", "pt-PT", "tts", "hyperframes", "nextjs", "nuxt"]
+}
